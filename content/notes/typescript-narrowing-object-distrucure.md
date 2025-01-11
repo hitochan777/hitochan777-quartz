@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: TypescriptのNarrowingはObject Distructuringするときは注意が必要
-pubDate: '2022-04-27T09:00:00.000Z'
+date: '2022-04-27T09:00:00.000Z'
 draft: false
 ---
 

@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: shuttleで1プロジェクト内でAPIと定期処理を両方実行する
 draft: true
-pubDate: '2024-05-12T09:00:00.000Z'
+date: '2024-05-12T09:00:00.000Z'
 tags: [shuttle,rust,axum] 
 ---
 

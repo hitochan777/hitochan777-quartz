@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: typescriptのvim pluginとgatsby-plugins-typescriptを一緒に使う
-pubDate: '2019-01-24t09:00:00.000z'
+date: '2019-01-24t09:00:00.000z'
 ---
 
 [gatsby-plugins-typescript](https://www.gatsbyjs.org/packages/gatsby-plugin-typescript/)で GatsbyJS を typescript で使えるようしていた。

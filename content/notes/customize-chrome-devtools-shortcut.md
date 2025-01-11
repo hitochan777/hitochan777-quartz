@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: Chrome DevToolsでショートカットキーをカスタマイズする
-pubDate: '2021-07-01T09:00:00.000Z'
+date: '2021-07-01T09:00:00.000Z'
 ---
 
 Chrome DevToolsでネットワークのオンライン/オフラインを切り替えれるのですが、わざわざDevToolsを開いてNetworkタブからOffline / No throttlingをマウスポチポチして切り替えるのも面倒だったのでショートカットとかないか調べてみました。

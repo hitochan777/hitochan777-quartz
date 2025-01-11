@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: Azure Functions実行時に出るBlobのエラーの解消方法
-pubDate: '2023-03-10T09:00:00.000Z'
+date: '2023-03-10T09:00:00.000Z'
 tags: [Azure]
 ---
 

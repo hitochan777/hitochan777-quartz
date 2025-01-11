@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: .editorconfigが親ディレクトリにある場合、Prettier CLI実行時に勝手にオプションが適用される
-pubDate: '2021-07-25T09:00:00.000Z'
+date: '2021-07-25T09:00:00.000Z'
 ---
 
 ## TL; DR;

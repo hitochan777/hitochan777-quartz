@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: GKEでクラスタ作るときのメモ
-pubDate: '2019-01-15T09:00:00.000Z'
+date: '2019-01-15T09:00:00.000Z'
 ---
 
 f1-micro インスタンスは 3 個以上でないと GKE クラスタが作れないが、

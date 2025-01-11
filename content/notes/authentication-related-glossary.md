@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 認証周りの用語整理 (Token, Session, Cookie...)
-pubDate: "2022-03-29T09:00:00.000Z"
+date: "2022-03-29T09:00:00.000Z"
 draft: false
 ---
 

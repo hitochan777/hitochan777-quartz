@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: Nuxt3でNuxt2のnuxtServerInitを実現する
-pubDate: "2024-01-31T09:00:00.000Z"
+date: "2024-01-31T09:00:00.000Z"
 tags: [nuxt3]
 draft: false
 ---

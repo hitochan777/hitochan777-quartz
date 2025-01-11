@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: vscode-neovimでノーマルモードに戻れない
-pubDate: '2021-09-13T09:00:00.000Z'
+date: '2021-09-13T09:00:00.000Z'
 ---
 
 [vscode-neovim](https://github.com/asvetliakov/vscode-neovim)でノーマルモードに戻るキーバインディングをjjとjkに設定してみたのだが、jjもjk押してもノーマルモードから抜け出せない。

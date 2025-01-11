@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: Azure App ServiceのAuthenticationで認証する際にハマったこと
-pubDate: '2021-04-16T09:00:00.000Z'
+date: '2021-04-16T09:00:00.000Z'
 tags: [Azure]
 ---
 

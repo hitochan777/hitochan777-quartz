@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: Azure Web AppsでWebSocketを使う
-pubDate: '2021-06-26T09:00:00.000Z'
+date: '2021-06-26T09:00:00.000Z'
 tags: [Azure]
 ---
 

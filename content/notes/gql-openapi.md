@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: GraphQL/OpenAPIの比較
-pubDate: '2024-03-17T09:00:00.000Z'
+date: '2024-03-17T09:00:00.000Z'
 tags: [GraphQL, OpenAPI]
 draft: true
 ---

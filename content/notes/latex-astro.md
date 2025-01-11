@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: AstroでLaTeXを使う
-pubDate: '2023-02-06T09:00:00.000Z'
+date: '2023-02-06T09:00:00.000Z'
 ---
 
 markdownが標準サポートされているとはいえ、LaTeXまではサポートされていないようなので導入方法を調べてみた。

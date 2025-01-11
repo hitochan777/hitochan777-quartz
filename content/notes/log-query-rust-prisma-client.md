@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: Prisma Rust Clientで実行ログを表示する
-pubDate: '2023-05-14T09:00:00.000Z'
+date: '2023-05-14T09:00:00.000Z'
 tags: [rust, prisma]
 ---
 

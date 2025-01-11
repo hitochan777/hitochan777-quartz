@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: shuttleでServiceが実行されるまでの流れ
 draft: false 
-pubDate: "2024-05-12T09:00:00.000Z"
+date: "2024-05-12T09:00:00.000Z"
 tags: [shuttle, rust]
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: Axumのハンドラーでコンパイルエラー
-pubDate: '2024-03-23T09:00:00.000Z'
+date: '2024-03-23T09:00:00.000Z'
 tags: [rust, axum]
 ---
 

@@ -2,7 +2,7 @@
 title: コピーしながら機能を拡張していくことについて
 layout: ../../layouts/MarkdownPostLayout.astro
 draft: false
-pubDate: '2024-04-17T23:56:00.000Z'
+date: '2024-04-17T23:56:00.000Z'
 tags: [poem,software-engineering]
 ---
 

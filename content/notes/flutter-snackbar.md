@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: Flutterでスナックバーを出す 
-pubDate: '2023-02-26T09:00:00.000Z'
+date: '2023-02-26T09:00:00.000Z'
 ---
 
 Reactライクにクロスプラットフォームなアプリがかけるところに魅力を感じ最近はFlutterの勉強をしている。

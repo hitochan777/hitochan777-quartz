@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: ABC080 C Shopping Street
 draft: false
-pubDate: '2022-04-08T14:12:00.000Z'
+date: '2022-04-08T14:12:00.000Z'
 ---
 
 [問題](https://atcoder.jp/contests/abc080/tasks/abc080\_c)

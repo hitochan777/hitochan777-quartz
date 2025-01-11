@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: Azure Application Insightsのログをazcliからクエリする
-pubDate: '2020-07-28T09:00:00.000Z'
+date: '2020-07-28T09:00:00.000Z'
 ---
 
 ブラウザ上でAzure Application Insightsを使ってログ分析をすることが結構頻繁にあるのだが
