@@ -2,12 +2,15 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: TinyBaseの同期の仕組みを理解する
 draft: false
-tags: [local-first, code-reading]
+tags:
+  - local-first
+  - code-reading
+  - tinybase
 ---
 
 # はじめに
 
-今回は TinyBase という Local First なデータストアラッパーの同期の仕組みを見ていこうと思う。
+今回は tinybase という Local First なデータストアラッパーの同期の仕組みを見ていこうと思う。
 Local First なソフトとはデータをクライアント側に保存することでオフラインでも動作するソフトのことだ。
 オンライン時でも応答性の面でメリットがある。クラウドのデータストアと同期することが一般的だが、その場合でもまずローカルのデータストアに書き込んでからクラウドに同期することができるためだ。
 
