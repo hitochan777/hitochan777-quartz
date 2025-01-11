@@ -1,3 +1,9 @@
+---
+tags:
+  - rust
+  - tauri
+  - sqlite
+---
 # sqlプラグインを使う
  一番手っ取り早いのは[sqlプラグイン](https://github.com/tauri-apps/plugins-workspace/tree/v2/plugins/sql)を使うこと
  * フロントエンド側からクエリを実行したりマイグレーションにも対応している
