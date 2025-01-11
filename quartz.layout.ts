@@ -26,7 +26,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.RecentNotes({ title: "最近の投稿" })),
+    Component.DesktopOnly(Component.RecentNotes({ title: "最近の投稿", linkToMore: "/notes" })),
   ],
   right: [
     Component.Graph(),
