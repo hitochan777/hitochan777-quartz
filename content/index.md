@@ -2,4 +2,4 @@
 title: hitochan's tech blog
 ---
 
-全記事: [[notes]]
+全記事一覧は [[notes]]からどうぞ。
