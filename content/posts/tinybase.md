@@ -6,6 +6,7 @@ tags:
   - local-first
   - code-reading
   - tinybase
+  - CRDT
 ---
 
 # はじめに
