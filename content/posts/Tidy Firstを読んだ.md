@@ -1,5 +1,6 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
+draft: true
 tags:
   - bookreadlog
 ---
