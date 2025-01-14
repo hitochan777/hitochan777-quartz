@@ -3,7 +3,7 @@ tags:
   - bookreadlog
   - functional-programming
 ---
-Scalaを使ってFunctional Programming (FP)の意義、FPの実現方法、テストの仕方など幅広くカバーしている本。
+[Grokking Functional Programming](https://www.manning.com/books/grokking-functional-programming)はScalaを使ってFunctional Programming (FP)の意義、FPの実現方法、テストの仕方など幅広くカバーしている本。
 ソースコード多めでかなり丁寧に説明されていた印象。
 
 以下気になったところをまとめ。
