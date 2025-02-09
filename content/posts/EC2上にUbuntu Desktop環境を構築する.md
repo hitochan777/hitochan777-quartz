@@ -13,17 +13,17 @@ src-tauriをルートディレクトリとして起動すると固まりづら�
 
 そこでEC2上にUbuntu Desktopを構築することにした。
 
-## 他に考えた解決策
+# 他に考えた解決策
 * 
 * 新しい高スペックマシンを調達する
 	* 費用がかかる
 	* Tauri以外の開発では特に困っていないし、長期的にTauriを用いた開発をするかもわからないので他の方法があるなら購入は避けたい
 * Tauriをやめる
-	* Tauriは興味があるため極力使いたい (個人的な嗜好)
+	* Tauriは興味があるため極力使いたい (個人的な嗜好)8
 	* Tauriをやめるとしてもコアな部分はRustで書かれているのでできるだけ活用したい
 		* Ankiのようにprotocol bufferを使うことでデスクトップアプリは別のフレームワークや言語で開発も可能だがTauriでいけるなら余計な工数を使わなくて済む
 
-## Ubuntu Desktopを構築する方法
+# Ubuntu Desktopを構築する方法
 
 VNCとRDPを使うのがメインな様子。
 
@@ -36,7 +36,7 @@ VNCとRDPを使うのがメインな様子。
 	* PRO: GUIをコントロール部やフォントなどグラフィカルな要素として捉えるため帯域消費が小さくVNCよりも高速である
 	* CON: 既存セッションを共有することができない ???
 
-### VNCを使う場合
+## VNCを使う場合
 
 https://ubuntu.com/tutorials/ubuntu-desktop-aws#2-setting-up-tightvnc-on-aws に従いTightVNCをインストール
 
@@ -62,4 +62,4 @@ gnome-session --session=gnome-flashback-metacity --disable-acceleration-check &
 VNCでもパフォーマンス面では気になるところはなかった。
 UIが自分が普段使っているUbuntuのものと異なっていたが、デスクトップ環境がGNOME-Flashbackになっているところを適宜変更すればよさそう。
 
-# RDPを使う場合
+## RDPを使う場合
