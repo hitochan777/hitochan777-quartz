@@ -7,8 +7,11 @@ tags:
 ---
 
 # OAuth2.0の導入方法
-[tauri-plugin-oauth](https://github.com/FabianLars/tauri-plugin-oauth) を入れるだけ。
+まず[tauri-plugin-oauth](https://github.com/FabianLars/tauri-plugin-oauth) を入れる。
 認可コードを受け取るためのサーバを建てる方法を取っている (詳細は下記参照)。
+
+## Auth0との連携
+TBW
 
 # ネイティブアプリでのOAuth2.0
 
@@ -27,4 +30,3 @@ Device Authorization Grantも使えるんじゃないかと思ったがネイテ
 (2) 特定URIのリダイレクト機能を使う方法
 　OSによっては特定のURIが指定された場合URIにアクセスするのではなくアプリを開くといったことができるらしい。
 (3) loopbackアドレスでlistenするローカルサーバにリダイレクトする方法
-
