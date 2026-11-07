@@ -16,7 +16,7 @@ The public article list, tags, search index, RSS (`/index.xml`), sitemap (`/site
 
 ## Local editing
 
-Use Node 22.12+ and `npm ci`, then `npm run dev`. Tina's local GraphQL server and Astro start together. `/admin` redirects to `/admin/index.html`. The local editor writes Markdown files without TinaCloud credentials. New published documents are included on the next build; restart the dev server if a new route is not visible.
+Use Node 22 (22.12 or newer) and `npm ci`, then `npm run dev`. The package engine is pinned to `22.x` so Vercel cannot select a newer major unsupported by Tina's CLI. Tina's local GraphQL server and Astro start together. `/admin` redirects to `/admin/index.html`. The local editor writes Markdown files without TinaCloud credentials. New published documents are included on the next build; restart the dev server if a new route is not visible.
 
 `npm run build:local` starts a temporary local Tina data layer, generates the client/admin, and builds Astro without calling TinaCloud. It is for CI and local verification; deploy using the production build so the generated client targets TinaCloud rather than localhost.
 
