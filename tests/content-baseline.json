@@ -1,0 +1,244 @@
+[
+  {
+    "file": "OAuth2.0 (OIDC) in Tauri 2.md",
+    "url": "/OAuth2.0-(OIDC)-in-Tauri-2",
+    "bodyHash": "b8016bfe7aa2221b81934712df0af10819f6ed74b5da87e9ac27f4d24316e70a",
+    "draft": false
+  },
+  {
+    "file": "Unit Testing Principles Practices and Patterns.md",
+    "url": "/Unit-Testing-Principles-Practices-and-Patterns",
+    "bodyHash": "d589c974448820007e8d37766e6d7d714b6e54bdca78ab0cfe549b1db6e668e1",
+    "draft": false
+  },
+  {
+    "file": "index.md",
+    "url": "/",
+    "bodyHash": "90b49e9df7f79ab61488826d547c49922d8132e319edf38269500d42600328e2",
+    "draft": false
+  },
+  {
+    "file": "posts/1b015052.md",
+    "url": "/posts/1b015052",
+    "bodyHash": "819298601980541a885af7b659d3e3a00c4fa113b0ba1d4268f2bf7d928272c5",
+    "draft": false
+  },
+  {
+    "file": "posts/3a7f8d91.md",
+    "url": "/posts/3a7f8d91",
+    "bodyHash": "c8b9f7a2058cb9fdcd3632c33574ffc1626294d47d879e12447a2394bced6329",
+    "draft": false
+  },
+  {
+    "file": "posts/EC2上にUbuntu Desktop環境を構築する.md",
+    "url": "/posts/EC2上にUbuntu-Desktop環境を構築する",
+    "bodyHash": "e172f5b1496e2b9d2ba3f0f5826e2781f1c12eb33ed6112188f9953a6ccd887f",
+    "draft": false
+  },
+  {
+    "file": "posts/Grokking Functional Programming.md",
+    "url": "/posts/Grokking-Functional-Programming",
+    "bodyHash": "e24470aa214e358632248e779a4cfe6f74def7f1e38ebfbed30a458cbfa99d7a",
+    "draft": false
+  },
+  {
+    "file": "posts/Haskell学習のリソース.md",
+    "url": "/posts/Haskell学習のリソース",
+    "bodyHash": "df4c1035fa784f8ba2edb98401e6e417da7a169c6841eae550ff698618b613a4",
+    "draft": false
+  },
+  {
+    "file": "posts/Rustのtracing.md",
+    "url": "/posts/Rustのtracing",
+    "bodyHash": "aa8c5ec98085de49cad2c12cf56733ba3b5646963348570f07ac5554d715710b",
+    "draft": false
+  },
+  {
+    "file": "posts/TauriでSQLiteを使う方法.md",
+    "url": "/posts/TauriでSQLiteを使う方法",
+    "bodyHash": "63c06376b6945333304891a18e318b89b3ec5543c356b7cad0285f0fab5afb8a",
+    "draft": false
+  },
+  {
+    "file": "posts/Tidy First (原書) を読んだ.md",
+    "url": "/posts/Tidy-First-(原書)-を読んだ",
+    "bodyHash": "5d7ae289c3f25310ea54ed5e4f604307fda42e5f37d752b74ea8fe24276fc2de",
+    "draft": false
+  },
+  {
+    "file": "posts/abc080_c.md",
+    "url": "/posts/abc080_c",
+    "bodyHash": "7351edd5472d2818399bb3d961e9df1b0f02b4115c46199898e483faae612f01",
+    "draft": false
+  },
+  {
+    "file": "posts/about-copying-code.md",
+    "url": "/posts/about-copying-code",
+    "bodyHash": "1e6f8d59fb281281bfabb25b43099196a4b36eb27200efec27a6bcd04282d66d",
+    "draft": false
+  },
+  {
+    "file": "posts/app-insights-from-azcli.md",
+    "url": "/posts/app-insights-from-azcli",
+    "bodyHash": "33bc99a41414747f9405ec8b399d512d4c20f7c877ba69ad32abecf380593e3c",
+    "draft": false
+  },
+  {
+    "file": "posts/authentication-related-glossary.md",
+    "url": "/posts/authentication-related-glossary",
+    "bodyHash": "0067a92616ac43019eead1b6cdc2354636e31ae5a07ff548e44fa40da20f83db",
+    "draft": false
+  },
+  {
+    "file": "posts/authn-with-easy-auth-on-azure-web-apps.md",
+    "url": "/posts/authn-with-easy-auth-on-azure-web-apps",
+    "bodyHash": "c568b73ef9c148e46b4ec1c9245fbd9bef02aaefd6a649522c32574c10acb402",
+    "draft": false
+  },
+  {
+    "file": "posts/axum-handler.md",
+    "url": "/posts/axum-handler",
+    "bodyHash": "6faa6d95cffed76bd659ae6bd3f5dbb5ebec7387648bd7f3c5236eafee9a900a",
+    "draft": false
+  },
+  {
+    "file": "posts/azurite.md",
+    "url": "/posts/azurite",
+    "bodyHash": "b2c6979f0d46db6265de39a2d472849ba76d89001ada9ecd9db111a8aed2388b",
+    "draft": false,
+    "migratedBodyHash": "1776822ab75f782eef11836d1edf29fb8565f24eeea8481f4559bb54961c00ef"
+  },
+  {
+    "file": "posts/cannot-switch-to-normal-mode.md",
+    "url": "/posts/cannot-switch-to-normal-mode",
+    "bodyHash": "756d0f2202f88f7b30d460ca25ce528c32c582f3083cd1b6e4882b5ab0b328f8",
+    "draft": false
+  },
+  {
+    "file": "posts/customize-chrome-devtools-shortcut.md",
+    "url": "/posts/customize-chrome-devtools-shortcut",
+    "bodyHash": "5fcc27a500c090cf4d3e2a0661aa49e8d27563176d31fb4cd19c051621a33e77",
+    "draft": false
+  },
+  {
+    "file": "posts/flutter-snackbar.md",
+    "url": "/posts/flutter-snackbar",
+    "bodyHash": "7369f7d9168ed57439cf6cd55608a9bdda223ec53efaab3e91b6a288dbd5f7c0",
+    "draft": false
+  },
+  {
+    "file": "posts/gke-cluster-memo.md",
+    "url": "/posts/gke-cluster-memo",
+    "bodyHash": "b6428c5c0966e01139e110abd8c077b0a0a405ac40f59f3935105eb68944d61f",
+    "draft": false
+  },
+  {
+    "file": "posts/gql-openapi.md",
+    "url": "/posts/gql-openapi",
+    "bodyHash": "322c3a47412b8082a9d34608fa29809c4202aaa7dc93b10e8bf4a7d7b6425cc1",
+    "draft": true
+  },
+  {
+    "file": "posts/iothub-c2d-retry.md",
+    "url": "/posts/iothub-c2d-retry",
+    "bodyHash": "acbf01765a8c5da3379c7f9f5a11806e5d983d8cccb61bac8d641a9b201651cb",
+    "draft": false
+  },
+  {
+    "file": "posts/latex-astro.md",
+    "url": "/posts/latex-astro",
+    "bodyHash": "d830177d1f3bb654c4d053d9aaae8ba145ca6757ff7e7ed61daabf6beadf904d",
+    "draft": false,
+    "migratedBodyHash": "3ff88164c147438508e6fab88f334198ab87eba57a1afc83cd37b2483c816793"
+  },
+  {
+    "file": "posts/libp2p.md",
+    "url": "/posts/libp2p",
+    "bodyHash": "22ddb7890f7906bf69d5406fb184ad8bb699e1f161ddea1a5c779c549acc6d90",
+    "draft": false
+  },
+  {
+    "file": "posts/log-query-rust-prisma-client.md",
+    "url": "/posts/log-query-rust-prisma-client",
+    "bodyHash": "b688ef39b81e1d12977f001fcb066e944d54f478af88311ae7b6e72acfe5c481",
+    "draft": false
+  },
+  {
+    "file": "posts/migrating-to-shuttleapp.md",
+    "url": "/posts/migrating-to-shuttleapp",
+    "bodyHash": "7d11e0e5128158eb3841e6c5625975f6c3d02b9d5346dd14d6e7055a8ec172c2",
+    "draft": false
+  },
+  {
+    "file": "posts/nuxt-server-init-nuxt3.md",
+    "url": "/posts/nuxt-server-init-nuxt3",
+    "bodyHash": "8716e146e14ca521ffdc9641d5f76a6927e8462b27980d7721f2a022b5022c21",
+    "draft": false
+  },
+  {
+    "file": "posts/nuxt3-cookie-type-coarsed.md",
+    "url": "/posts/nuxt3-cookie-type-coarsed",
+    "bodyHash": "cf69f519854fd445cdf9936a3b74fd2a549180324ba27b88ddcbb04a94db1f5a",
+    "draft": false
+  },
+  {
+    "file": "posts/prettier-editorconfig.md",
+    "url": "/posts/prettier-editorconfig",
+    "bodyHash": "a8c4870846fea8c0ce59dc46bd76888c39022e7f6c15e27f9114208ab4e4aa16",
+    "draft": false
+  },
+  {
+    "file": "posts/ratatui-component.md",
+    "url": "/posts/ratatui-component",
+    "bodyHash": "7cd7026f45693ec0cc19ebb2c533962ee5ffbd7929eaa5533db5db0be73cd9f5",
+    "draft": true
+  },
+  {
+    "file": "posts/shuttle-axum-and-cron.md",
+    "url": "/posts/shuttle-axum-and-cron",
+    "bodyHash": "8bb90530d0dd78906e748678027d1157966b527460ea667ca2b4a398b00943a8",
+    "draft": true
+  },
+  {
+    "file": "posts/shuttle-service-how-it-works.md",
+    "url": "/posts/shuttle-service-how-it-works",
+    "bodyHash": "6396d6253be75e888fc8b76472c69a264c4c5fe83858697fa7599df10c9e8c78",
+    "draft": false
+  },
+  {
+    "file": "posts/tinybase.md",
+    "url": "/posts/tinybase",
+    "bodyHash": "fd3258d46d7012ac9869a53ea53865b23931d8054b17c660471b2a9f603c7da5",
+    "draft": false
+  },
+  {
+    "file": "posts/typescript-narrowing-object-distrucure.md",
+    "url": "/posts/typescript-narrowing-object-distrucure",
+    "bodyHash": "253e6a1ac3d0e19dd0a1f47d17e9f31fa719d8c558c8918c6ee8d344b027ef1d",
+    "draft": false
+  },
+  {
+    "file": "posts/typescript-vim-plugin-with-gatsby-plugins-typescript.md",
+    "url": "/posts/typescript-vim-plugin-with-gatsby-plugins-typescript",
+    "bodyHash": "ba9bc04de60bbc84a496cc14301ca9011fe1a81f76174f9487852c13b732adf8",
+    "draft": false
+  },
+  {
+    "file": "posts/vuetify-table-filter.md",
+    "url": "/posts/vuetify-table-filter",
+    "bodyHash": "c74c2bcaeb961e9c285d8176b9b9cb6acadbd21c5dc724cd24f8942471cd6161",
+    "draft": false
+  },
+  {
+    "file": "posts/websocket-in-azure-web-apps.md",
+    "url": "/posts/websocket-in-azure-web-apps",
+    "bodyHash": "8b6978e271a970f23cbc906d90f82ec7fa8c8b47a379e9b31c3cb69a3411b1bf",
+    "draft": false
+  },
+  {
+    "file": "posts/ノートパソコンの容量が足りないのでなんとかしたい件.md",
+    "url": "/posts/ノートパソコンの容量が足りないのでなんとかしたい件",
+    "bodyHash": "43871691dac344ae20c451ba248cd90e8248e5ec1e657748de6dbf6e0bd6b2a8",
+    "draft": false
+  }
+]

@@ -1,0 +1,59 @@
+---
+import Base from "../layouts/Base.astro"
+---
+
+<Base title="検索 — Hitochan's Tech blog" noindex>
+  <h1>検索</h1>
+  <label for="query">記事のタイトル・本文・タグから検索</label>
+  <input id="query" type="search" placeholder="キーワードを入力" autocomplete="off" />
+  <p id="search-status" role="status"></p>
+  <ul id="results" class="article-list"></ul>
+  <noscript>
+    検索には JavaScript が必要です。<a href="/posts">記事一覧</a>をご利用ください。
+  </noscript>
+</Base>
+<script>
+  import type { Article } from "../lib/content"
+  const input = document.querySelector<HTMLInputElement>("#query")!
+  const results = document.getElementById("results")!
+  const status = document.getElementById("search-status")!
+  const normalize = (text: string) => text.normalize("NFKC").toLocaleLowerCase("ja")
+  try {
+    const response = await fetch("/search-index.json")
+    if (!response.ok) throw new Error("Index unavailable")
+    const articles: Pick<Article, "title" | "description" | "tags" | "body" | "url">[] =
+      await response.json()
+    const update = () => {
+      const terms = normalize(input.value).trim().split(/\s+/).filter(Boolean)
+      results.replaceChildren()
+      const matches = terms.length
+        ? articles.filter((article) =>
+            terms.every((term) =>
+              normalize(`${article.title} ${article.body} ${article.tags.join(" ")}`).includes(
+                term,
+              ),
+            ),
+          )
+        : []
+      status.textContent = terms.length
+        ? `${matches.length} 件見つかりました`
+        : "キーワードを入力してください"
+      for (const article of matches) {
+        const li = document.createElement("li")
+        const heading = document.createElement("h2")
+        const link = document.createElement("a")
+        link.href = article.url
+        link.textContent = article.title
+        const description = document.createElement("p")
+        description.textContent = article.description
+        heading.append(link)
+        li.append(heading, description)
+        results.append(li)
+      }
+    }
+    input.addEventListener("input", update)
+    update()
+  } catch {
+    status.textContent = "検索を読み込めませんでした。ページを再読み込みしてください。"
+  }
+</script>

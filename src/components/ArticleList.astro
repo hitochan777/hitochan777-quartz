@@ -1,0 +1,25 @@
+---
+import { displayDate, type Article } from "../lib/content"
+import { tagUrl } from "../lib/paths"
+interface Props {
+  articles: Article[]
+}
+const { articles } = Astro.props
+---
+
+<ul class="article-list">
+  {articles.map((article) => (
+    <li>
+      {article.date && <time datetime={article.date}>{displayDate(article.date)}</time>}
+      <h2>
+        <a href={article.url}>{article.title}</a>
+      </h2>
+      <p>{article.description}</p>
+      <div class="tags">
+        {article.tags.map((tag) => (
+          <a href={tagUrl(tag)}>#{tag}</a>
+        ))}
+      </div>
+    </li>
+  ))}
+</ul>

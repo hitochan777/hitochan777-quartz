@@ -1,18 +1,21 @@
-# Quartz v4
+# Hitochan's Tech blog
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+An Astro blog with Markdown articles in Git and TinaCMS visual editing at `/admin/index.html`.
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
-Quartz v4 features a from-the-ground rewrite focusing on end-user extensibility and ease-of-use.
+```sh
+npm ci
+npm run dev
+```
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+Open http://localhost:4321 for the blog and http://localhost:4321/admin/index.html for the local editor. Local saves write to `content/**/*.md`; commit those changes as usual.
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+```sh
+npm test             # URLs, drafts, Markdown behavior
+npm run verify:migration # one-time original-content preservation check
+npm run test:smoke   # HTTP and live-preview checks against npm run dev
+npm run build:local  # build without TinaCloud credentials
+npm run check        # Astro and TypeScript checks after client generation
+npm run build        # production build with TinaCloud settings
+```
 
-## Sponsors
-
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+See [MIGRATION.md](MIGRATION.md) for TinaCloud and Vercel setup, publishing, and differences from Quartz.
