@@ -31,14 +31,14 @@ Azuriteを最新にすれば解消されるかもしれないが、自分の場�
 
 # 解決方法
 * 方法1: AzuriteがAPIバージョンチェックしないようにして走らせる  
-  azuriteを`--skipApiVersionCheck`オプションをつけて実行するるとAPIバージョンチェックしないようにできる。  
-  もちろんバージョンチェックをしないので意図しない動きになるリスクもあるため自己責任で。
+azuriteを`--skipApiVersionCheck`オプションをつけて実行するるとAPIバージョンチェックしないようにできる。\
+もちろんバージョンチェックをしないので意図しない動きになるリスクもあるため自己責任で。
 
-  ```powershell
-  azurite --loose --location "C:\Users\username\AppData\Local\Temp\Azurite" --debug "C:\Users\username\AppData\Local\Temp\Azurite\debug.log" --skipApiVersionCheck
-  ```
+```powershell
+azurite --loose --location "C:\Users\username\AppData\Local\Temp\Azurite" --debug "C:\Users\username\AppData\Local\Temp\Azurite\debug.log" --skipApiVersionCheck
+```
 
-  Visual Studioを使っている場合は、Visual Studioを起動する前にコマンドプロンプトなどで上記コマンドを実行することでVisual Studio起動時に勝手にデフォルトのパラメータでAzuriteが起動してしまうのを防げる。
+Visual Studioを使っている場合は、Visual Studioを起動する前にコマンドプロンプトなどで上記コマンドを実行することでVisual Studio起動時に勝手にデフォルトのパラメータでAzuriteが起動してしまうのを防げる。
 * 方法2: Azuriteのバージョンを上げる (試していないの動くか不明)
-  * 方法2-1: Visual Studioのバージョンを上げる?
-  * 方法2-2: Azuriteを手動でアップグレードする
+* 方法2-1: Visual Studioのバージョンを上げる?
+* 方法2-2: Azuriteを手動でアップグレードする

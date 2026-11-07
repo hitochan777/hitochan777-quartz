@@ -1,7 +1,6 @@
 .DS_Store
 .gitignore
 node_modules
-public
 prof
 tsconfig.tsbuildinfo
 .obsidian
@@ -9,3 +8,13 @@ tsconfig.tsbuildinfo
 private/
 .replit
 replit.nix
+
+# Astro / TinaCMS generated output and local credentials
+.astro/
+.vercel/
+dist/
+.env
+.env.*
+!.env.example
+tina/__generated__/
+public/admin/

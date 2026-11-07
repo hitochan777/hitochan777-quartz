@@ -1,4 +1,8 @@
 {
+  "framework": "astro",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "redirects": [{ "source": "/admin", "destination": "/admin/index.html", "permanent": false }]
 }

@@ -1,0 +1,22 @@
+---
+import Base from "../../layouts/Base.astro"
+import { getArticles, listedArticles } from "../../lib/content"
+import { tagUrl } from "../../lib/paths"
+const counts = new Map<string, number>()
+for (const article of listedArticles(await getArticles()))
+  for (const tag of article.tags) counts.set(tag, (counts.get(tag) ?? 0) + 1)
+---
+
+<Base title="タグ — Hitochan's Tech blog">
+  <h1>タグ</h1>
+  <ul class="tag-index">
+    {[...counts]
+      .sort(([a], [b]) => a.localeCompare(b))
+      .map(([tag, count]) => (
+        <li>
+          <a href={tagUrl(tag)}>#{tag}</a>
+          <span>{count}</span>
+        </li>
+      ))}
+  </ul>
+</Base>

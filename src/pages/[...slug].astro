@@ -1,0 +1,49 @@
+---
+import type { GetStaticPaths } from "astro"
+import TinaIsland from "@tinacms/astro/TinaIsland.astro"
+import Base from "../layouts/Base.astro"
+import ArticleList from "../components/ArticleList.astro"
+import { getArticles, listedArticles, displayDate, type Article } from "../lib/content"
+import { renderMarkdown } from "../lib/markdown"
+import { tagUrl } from "../lib/paths"
+export const getStaticPaths = (async () => {
+  const articles = await getArticles()
+  return articles.map((article) => ({
+    params: { slug: article.url === "/" ? undefined : article.url.slice(1) },
+    props: { article, recent: listedArticles(articles).slice(0, 8) },
+  }))
+}) satisfies GetStaticPaths
+interface Props {
+  article: Article
+  recent: Article[]
+}
+const { article, recent } = Astro.props
+const html = await renderMarkdown(article.body)
+---
+
+<Base title={article.title} description={article.description}>
+  <TinaIsland
+    name="article"
+    params={{ path: article.relativePath }}
+    wrapper={{ tag: "article", className: "article" }}
+    primary
+  >
+    <header class="article-header">
+      <h1>{article.title}</h1>
+      {article.date && <time datetime={article.date}>{displayDate(article.date)}</time>}
+      <div class="tags">
+        {article.tags.map((tag) => (
+          <a href={tagUrl(tag)}>#{tag}</a>
+        ))}
+      </div>
+    </header>
+    <div class="prose" set:html={html} />
+  </TinaIsland>
+  {article.url === "/" && (
+    <section class="recent">
+      <h2>最近の投稿</h2>
+      <ArticleList articles={recent} />
+      <a href="/posts">すべての記事を見る</a>
+    </section>
+  )}
+</Base>

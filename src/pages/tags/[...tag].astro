@@ -1,0 +1,18 @@
+---
+import Base from "../../layouts/Base.astro"
+import ArticleList from "../../components/ArticleList.astro"
+import { getArticles, listedArticles } from "../../lib/content"
+export async function getStaticPaths() {
+  const articles = listedArticles(await getArticles())
+  return [...new Set(articles.flatMap((article) => article.tags))].map((tag) => ({
+    params: { tag },
+    props: { tag, articles: articles.filter((article) => article.tags.includes(tag)) },
+  }))
+}
+const { tag, articles } = Astro.props
+---
+
+<Base title={`#${tag} — Hitochan's Tech blog`}>
+  <h1>#{tag}</h1>
+  <ArticleList articles={articles} />
+</Base>
